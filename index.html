@@ -18,6 +18,26 @@
 
   .subscribe-button:active {
     opacity: 0.4;
+
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s; 
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  button:active {
+    opacity: 0.4;
+  }
   }
 </style>
 
@@ -39,7 +59,7 @@
     <hr>
     <a href="https://github.com/IAmDazen/fakebook"> Hey, This Is Open Source! Click On me To Check The Source Code! </a>
     <hr>
-    <a href="developer.html"> <img src="buttonRound.png" height="40"> </a>
+    <a href="developer.html"> <button>ARG</button> </a>
     <a href="https://www.youtube.com/channel/UCKwIOzTUka6019ZjM42f9jQ"><button class="subscribe-button">SUBSCRIBE</button></a>
 
 </body>
